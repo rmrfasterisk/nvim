@@ -19,10 +19,10 @@ require("lualine").setup {
     lualine_b = {"filename"},
     lualine_c = {},
     lualine_d = {},
-    lualine_x = { "diagnostics", "diff", "branch" },
-    lualine_y = {"filetype"},
+    lualine_x = {},
+    lualine_y = { "diagnostics", "diff", "branch" },
     lualine_z = {
-        { "location", separator = { right = "" }, left_padding = 2 },
+        { "filetype", separator = { right = "" }, left_padding = 2 },
     }
   },
   inactive_sections = {

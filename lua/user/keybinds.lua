@@ -36,3 +36,6 @@ kmap("n", "<C-f>", "gf", opts)
 kmap("n", "<Tab>", "gt", {})
 kmap("n", "<S-Tab>", "gT", {})
 kmap("n", "<leader>t", ":tabnew<CR>", opts)
+
+-- NvimTreeToggle
+kmap("n", "<C-d>", ":NvimTreeToggle<CR>", opts)

@@ -48,6 +48,8 @@ return require("packer").startup(function(use)
   use "akinsho/bufferline.nvim"
   use "nvim-lua/plenary.nvim"
   use "lewis6991/gitsigns.nvim"
+  use "rcarriga/nvim-notify"
+  use "kyazdani42/nvim-tree.lua"
 
   if PACKER_BOOTSTRAP then
     require("packer").sync()
