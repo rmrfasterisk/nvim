@@ -51,6 +51,10 @@ return require("packer").startup(function(use)
   use "rcarriga/nvim-notify"
   use "kyazdani42/nvim-tree.lua"
 
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
   if PACKER_BOOTSTRAP then
     require("packer").sync()
   end
